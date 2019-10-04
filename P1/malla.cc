@@ -100,6 +100,8 @@ void ObjMallaIndexada::draw_ModoAjedrez()
     std::vector<Tupla3i> triangulosA ;
     std::vector<Tupla3i> triangulosB ;
     
+  
+    //Inicializa las listas de triangulos para el modo ajedrez.
     for (int i = 0; i<triangulos.size(); i+=2) {
         triangulosA.push_back(triangulos[i]);
         triangulosB.push_back(triangulos[i+1]);
